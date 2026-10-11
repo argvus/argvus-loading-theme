@@ -424,7 +424,7 @@ mod tests {
       ("gruvbox-dark", "#282828", "#EBDBB2", "#D4BE98"),
       ("solitude", "#101315", "#CACCCC", "#798186"),
       ("sunset", "#0F0F0F", "#EADCCC", "#E2BE8A"),
-      ("hackerman", "#0B0C16", "#DDF7FF", "#82FB9C"),
+      ("matrix", "#0B0C16", "#DDF7FF", "#82FB9C"),
       ("monokai-dark", "#2D2A2E", "#FCFCFA", "#78DCE8"),
       ("ARGVUS Light", "#ffffff", "#000000", DEFAULT_ACCENT),
     ];

@@ -27,7 +27,7 @@ pub fn theme_colors(theme: &str) -> Option<(&'static str, &'static str, &'static
     "tokyo-night" | "dark-tokio-night" => Some(("#1A1B26", "#C0CAF5", "#7AA2F7")),
     "solitude" | "dark-solitude" => Some(("#101315", "#CACCCC", "#798186")),
     "sunset" | "dark-sunset" => Some(("#0F0F0F", "#EADCCC", "#E2BE8A")),
-    "hackerman" | "dark-hackerman" => Some(("#0B0C16", "#DDF7FF", "#82FB9C")),
+    "matrix" | "dark-matrix" => Some(("#0B0C16", "#DDF7FF", "#82FB9C")),
     "monokai-dark" | "dark-monokai" => Some(("#2D2A2E", "#FCFCFA", "#78DCE8")),
     "catppuccin-latte" | "light-catppuccin-latte" | "dark-catppuccin-latte" => {
       Some(("#EFF1F5", "#4C4F69", "#1E66F5"))
@@ -101,7 +101,7 @@ mod tests {
       Some(("#0F0F0F", "#EADCCC", "#E2BE8A"))
     );
     assert_eq!(
-      theme_colors("hackerman"),
+      theme_colors("matrix"),
       Some(("#0B0C16", "#DDF7FF", "#82FB9C"))
     );
     assert_eq!(
